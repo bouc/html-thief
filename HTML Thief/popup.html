@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Thief</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="header-section">
+      <h1 class="main-title">HTML Thief</h1>
+      <div class="button-row">
+        <button id="extractBtn" class="action-btn extract">Extract</button>
+        <button id="downloadBtn" class="action-btn download">Download</button>
+        <button id="copyAllBtn" class="action-btn copy-all">Copy All</button>
+      </div>
+    </div>
+    <div class="code-sections">
+      <div class="code-section">
+        <h2 class="code-title">HTML</h2>
+        <div class="code-card">
+          <pre id="htmlCode" class="code-block"></pre>
+          <button class="center-copy-btn" data-target="htmlCode" title="Copy"><span>📋</span></button>
+        </div>
+      </div>
+      <div class="code-section">
+        <h2 class="code-title">CSS</h2>
+        <div class="code-card">
+          <pre id="cssCode" class="code-block"></pre>
+          <button class="center-copy-btn" data-target="cssCode" title="Copy"><span>📋</span></button>
+        </div>
+      </div>
+      <div class="code-section">
+        <h2 class="code-title">JavaScript</h2>
+        <div class="code-card">
+          <pre id="jsCode" class="code-block"></pre>
+          <button class="center-copy-btn" data-target="jsCode" title="Copy"><span>📋</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
